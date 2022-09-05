@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" href="./icons/favicon-32x32.png">
+  <title>Spotifu</title>
+</head>
+<body class="body">
+
+  <div class="layout">
+
+    <div class="layout-block">
+      <div class="layout-sidebar">
+        <div class="sidebar">
+          <header class="logo">
+            <a href="/Spotifu-base/index.html">
+              <img src="./icons/logo.webp" width="40" height="40" alt="Logo de Spotifu">
+              <img src="./images/spotifu-logo.png" class="logo-img" alt="Logo de spotifu" width="112" height="32">
+            </a>
+          </header>
+        
+          <nav class="menu" aria-label="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="/Spotifu-base/" class="link" aria-current="page">
+                  <i class="icon-home" aria-hidden="true"></i>
+                  <span>Inicio</span>
+                </a>
+              </li>
+        
+              <li class="menu-item">
+                <a href="/Spotifu-base/" class="link">
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <span>Buscar</span>
+                </a>
+              </li>
+        
+              <li class="menu-item">
+                <a href="/Spotifu-base/" class="link">
+                  <i class="icon-credit-card" aria-hidden="true"></i>
+                  <span>Premium</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        
+          <nav class="list" aria-labelledby="library-navigation">
+            <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
+            <ul class="list-content">
+              <li class="list-item">
+                <a href="#" class="link">Creada para ti</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Escuchado recientemente</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Tus me gusta</a>
+              </li>
+            </ul>
+          </nav>
+        
+          <nav class="list" aria-labelledby="playlist-navigation">
+            <h2 class="list-title" id="playlist-navigation">Playlists</h2>
+            <ul class="list-content">
+              <li class="list-item">
+                <a href="album.html" class="link">One More Light</a>
+              </li>
+              <li class="list-item">
+                <a href="mansion.html" class="link">Mansión Reggaetón</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link is-active">Kimetsu no Yaiba</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Lofi al 100% para programar</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Sin parar</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Jojo's openings</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">NieR Automata</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">This is Pokemon</a>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Más populares de la semana para ti que eres un pro</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Mis pistas de shazam</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Audio Library</a>
+              </li>
+        
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="layout-main">
+        <div class="page">
+          <div class="sticky">
+            <div class="page-block">
+              <header class="header" aria-label="Barra superior y menu de usuario">
+                <div class="navigation">
+                  <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <icon class="icon-arrow-left" aria-hidden="true"></icon>
+                  </button>
+                  <button class="navigation-next" aria-label="Avanzar" title="Avanzar" disabled>
+                    <i class="icon-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              
+                <form class="search" role="search" aria-label="Buscar por artista, cancion o podcast">
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <input type="search" placeholder="Buscar por artista, cancion o podcast">
+                </form>
+
+                <div class="user">
+                  <img src="./icons/avatar.jpg" width="28" height="28" alt="Imagen de usuario">
+                  <p>John Doe</p>
+                  <button aria-label="Boton de perfil" title="Boton de perfil">
+                    <i class="icon-vector"></i>
+                  </button>
+                </div>
+              </header>
+            </div> 
+          </div>
+
+          <div class="page-kimetsu">
+            <div class="kimetsu-presentation">
+                <div class="kimetsu-cover">
+                  <img src="./images/img-2.jpg" width="232" height="232" alt="Imagen de portada de Kimetsu no Yaiba">
+                </div>
+
+              <div class="kimetsu-info">
+                <p>PLAYLIST</p>
+                <h2><span class="ellipsis">Demon Slayer: Kimetsu no Yaiba 鬼滅の刃 Anime Soundtrack OST / OPENING Gurenge 紅蓮華</span></h2>
+                <p>"Kamado Tanjiro no Uta / 竈門炭治郎のうた", "Homura / 炎 ( ほむら )" </p>  
+              </div>
+            </div>
+            
+            <button class="buttonIcon is-primary buttonBig">
+                <i class="icon-play"></i>
+            </button>
+
+
+            <div class="kimetsu-list">
+              <table class="table-kimetsu">
+                
+               
+                  <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>TÍTULO</th>
+                        <th>ÁLBUM</th>
+                        <th>AGREGADO EL</th>
+                        <th><i class="icon-clock"></i></th>
+                    </tr>
+                  </thead>
+                
+                
+          
+                <tbody>
+                  <tr>
+                    <th>1</th>
+                    <th class="track">
+                     <div class="track-img">
+                      <img src="./images/img-19.png" width="40" height="40" alt="">
+                     </div>
+                      <div class="track-info">
+                        <p>Gurenge</p>  
+                        <p>LiSA</p>
+                      </div>
+                    </th>
+                    <th>Demon Slayer Soundtrack</th>
+                    <th>3 de jul. de 2019</th>
+                    <th>3:53</th>
+                  </tr>
+
+                  <tr>
+                    <th>2</th>
+                    <th class="track">
+                     <div class="track-img">
+                      <img src="./images/img-19.png" width="40" height="40" alt="">
+                     </div>
+                      <div class="track-info">
+                        <p>Gurenge</p>  
+                        <p>LiSA</p>
+                      </div>
+                    </th>
+                    <th>Demon Slayer Soundtrack</th>
+                    <th>3 de jul. de 2019</th>
+                    <th>3:53</th>
+                  </tr>
+
+                  <tr>
+                    <th>3</th>
+                    <th class="track">
+                     <div class="track-img">
+                      <img src="./images/img-19.png" width="40" height="40" alt="">
+                     </div>
+                      <div class="track-info">
+                        <p>Gurenge</p>  
+                        <p>LiSA</p>
+                      </div>
+                    </th>
+                    <th>Demon Slayer Soundtrack</th>
+                    <th>3 de jul. de 2019</th>
+                    <th>3:53</th>
+                  </tr>
+
+                  <tr>
+                    <th>4</th>
+                    <th class="track">
+                     <div class="track-img">
+                      <img src="./images/img-19.png" width="40" height="40" alt="">
+                     </div>
+                      <div class="track-info">
+                        <p>Gurenge</p>  
+                        <p>LiSA</p>
+                      </div>
+                    </th>
+                    <th>Demon Slayer Soundtrack</th>
+                    <th>3 de jul. de 2019</th>
+                    <th>3:53</th>
+                  </tr>
+
+                  <tr>
+                    <th>5</th>
+                    <th class="track">
+                     <div class="track-img">
+                      <img src="./images/img-19.png" width="40" height="40" alt="">
+                     </div>
+                      <div class="track-info">
+                        <p>Gurenge</p>  
+                        <p>LiSA</p>
+                      </div>
+                    </th>
+                    <th>Demon Slayer Soundtrack</th>
+                    <th>3 de jul. de 2019</th>
+                    <th>3:53</th>
+                  </tr>
+
+                  
+                </tbody>
+               
+              </table>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-block">
+      <footer class="layout-bottom">
+        <div class="player">
+      
+          <div class="player-nowPlaying">
+            <div class="nowPlaying">
+        
+              <div class="nowPlaying-cover">
+                <img src="./images/img-19.png" width="56" height="56" alt="Gurenge" title="Gurenge">
+              </div>
+              <div class="nowPlaying-details">
+                <div class="nowPlaying-description">
+                  <a href="#song" class="nowPlaying-title link">Gurenge</a>
+                  <a href="#RADWIMPS" class="nowPlaying-artist link">LiSA</a>
+                </div>
+                <div class="nowPlaying-actions">
+                  <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                    <i class="icon-heart" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="player-playerControls">
+            <div class="playerControls">
+            <div class="playerControls-buttons">
+              <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+                <i class="icon-prev" aria-hidden="true"></i>
+              </button>
+            
+              <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+            
+            
+              <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+                <i class="icon-next" aria-hidden="true"></i>
+              </button>
+            </div>
+        
+            <div class="playerPlayback">
+              <span class="playerPlayback-progressTime">01:40</span>
+              <div class="playerPlayback-slider">
+                <div class="slider">
+                  <div class="slider-progress">
+                    <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                  </div>
+                </div>
+                
+              </div>
+              <span class="playerPlayback-progressTime">01:40</span>
+        
+            </div>
+        
+          
+            </div>
+          </div>
+         
+          <div class="player-playerVolume">
+            <div class="playerVolume">
+              <button class="player-control" role="switch" aria-checked="false" aria-label="Silenciar" aria-describedby="volume-icon">
+                <i class="icon-volume-up" id="volume-icon" aria-hidden="true"></i>
+              </button>
+          
+              <div class="playerVolume-slider">
+                <div class="slider">
+                  <div class="slider-progress">
+                    <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        
+        </div>
+      </footer>
+    </div>
+
+
+  </div>
+
+</body>
+</html>

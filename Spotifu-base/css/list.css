@@ -1,0 +1,25 @@
+.list {
+    padding-inline: 1rem;
+}
+
+.list-title {
+    font: var(--baseFont-normal);
+}
+
+.list-item a {
+    font: var(--baseFont-bold);
+    transition: .2s;
+}
+
+.list-item a.is-active {
+    color: var(--white);
+}   
+
+.list-content {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}

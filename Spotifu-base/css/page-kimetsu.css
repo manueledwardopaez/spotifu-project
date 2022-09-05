@@ -1,0 +1,24 @@
+@import './table-kimetsu.css';
+
+.kimetsu-presentation {
+    display: flex;
+    gap: .625rem;
+    /* align-items: flex-end; */
+}
+
+.kimetsu-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--white);
+}
+
+.kimetsu-info p {
+    margin: 0;
+}
+
+.kimetsu-info h2 {
+    font: var(--headline1);
+    margin: 0;
+    padding-block: .625rem;
+}

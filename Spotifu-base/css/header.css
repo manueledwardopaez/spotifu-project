@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    gap: 1rem;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+}
+
+.logo a {
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   gap: .5rem;
+}
+
+.header-album {
+    display: flex;
+    gap: 1rem;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

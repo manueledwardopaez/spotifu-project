@@ -1,0 +1,43 @@
+.table-kimetsu {
+    inline-size: 100%;
+    text-align: start;
+   /*  border: 1px solid red; */
+    border-collapse: collapse;
+}
+
+
+.table-kimetsu thead {
+    text-align: start;
+    inline-size: 100%;
+    padding-block-end: .75rem;
+    border-bottom: 1px solid var(--gray10);
+}
+
+.table-kimetsu thead tr th {
+    color: var(--white);
+    font: var(--small-font);
+}
+
+.table-kimetsu thead tr th .icon-clock {
+    inline-size: 1.125rem;
+    block-size: 1.125rem;
+}
+
+.track {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    align-items: center;
+    padding-block-start: 1.5rem;
+}
+
+.table-kimetsu tbody {
+    font: var(--smallfont);
+    font-size: .75rem;
+    margin: 0;
+}
+
+
+.track p:nth-child(1) {
+    color: var(--white);
+}

@@ -1,0 +1,15 @@
+@import '../fonts/Avenir Next Condensed.ttc';
+@import '../fonts/Avenir Next.ttc';
+@import '../fonts/Avenir.ttc';
+@import '../fonts/AvenirLTStd-Black.otf';
+@import '../fonts/AvenirLTStd-Book.otf';
+@import '../fonts/AvenirLTStd-Roman.otf';
+
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/AvenirLTStd-Roman.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

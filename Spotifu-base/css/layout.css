@@ -1,0 +1,48 @@
+:root {
+    --sidebarinlineSize: 15rem;
+    --minBlockSize: 37.5rem;
+    --minInlineSize: 48rem;
+    --bottomSize: 5.5rem;
+}
+
+.layout {
+    min-inline-size: var(--minInlineSize);
+}
+
+.layout-sidebar {
+    block-size: calc(100vh - var(--bottomSize));
+    min-block-size: var(--minBlockSize);
+    inline-size: var(--sidebarinlineSize);
+    overflow: auto;
+    flex-shrink: 0;
+    background: var(--gray60);
+}
+
+.layout-main {
+    block-size: calc(100vh - var(--bottomSize));
+    min-block-size: var(--minBlockSize);
+    overflow: auto;
+    inline-size: 100%;
+}
+
+.layout-main-album {
+    block-size: calc(100vh - var(--bottomSize));
+    min-block-size: var(--minBlockSize);
+    inline-size: 100%;
+    overflow: auto;
+    background: linear-gradient(181.17deg, rgba(47, 47, 47, 0) -35.3%, #171717 66.2%), url(../images/chester.png);
+    /* background-image: url(../images/img-1.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: end;
+}
+
+.layout-bottom {
+    flex: 1;
+    block-size: var(--bottomSize);
+    
+}
+
+.layout-block {
+    display: flex;
+}

@@ -1,0 +1,19 @@
+/* .page-mansion {
+    display: flex;
+} */
+
+.mansion-presentation {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    color: var(--white);
+}
+
+.mansion-info h1 {
+    margin-block: 0;
+    font: var(--headline1);
+}
+
+.mansion-info p {
+    margin-block: 1rem;
+}

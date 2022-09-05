@@ -1,0 +1,12 @@
+.album-presentation {
+    color: var(--white);
+}
+
+.album-presentation h2 {
+    font: var(--headline1);
+}
+
+.album-presentation p {
+    font: var(--baseFont-normal);
+}
+

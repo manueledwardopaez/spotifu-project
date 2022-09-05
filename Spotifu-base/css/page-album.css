@@ -1,0 +1,14 @@
+@import './album-presentation.css';
+@import './album-search.css';
+@import './table.css';
+
+.page-album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-block-start: 5.5rem;
+    text-align: center;
+}
+
+
+

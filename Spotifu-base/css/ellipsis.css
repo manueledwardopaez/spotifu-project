@@ -1,0 +1,12 @@
+.ellipsis {
+    overflow: hidden;
+}
+
+.ellipsis > * {
+    /* Se envuelve el texto, en este caso con un span y
+    se ponen estas propiedades. */
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
