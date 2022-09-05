@@ -1,6 +1,6 @@
 # Spotifu
 
-This is a clon of Spotify, made with HTML and CSS. 
+This is a clon of Spotify, made with HTML and CSS. It also have 100% of accesibility.
 
 # Desktop
 
